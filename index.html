@@ -5,23 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Dice Roller </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="/header-footer.css">
-    <script 
-        src="https://code.jquery.com/jquery-3.3.1.js" 
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
-        crossorigin="anonymous">
-    </script>
-    <script> 
-        $(function(){
-          $("#header").load("/header.html"); 
-        //   $("#footer").load("footer.html"); 
-        });
-    </script> 
-
 </head>
 <body>
-    <div id="header"></div>
-
 
     <div class="container">
         <div class="dice-container">
@@ -58,12 +43,9 @@
             <button onclick="rollDice()"> Roll </button>
         </div>
         <label id="errorLabel"> *** # of dice must be less or equal to 6 *** </label>
-        
-          
+                  
     </div>
 
-
     <script src="index.js"></script>
-    <!-- <div id="footer"></div> -->
 </body>
 </html>
